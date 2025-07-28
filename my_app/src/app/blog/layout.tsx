@@ -1,3 +1,5 @@
+import SideNav from "@/app/ui/components/sidenav"
+
 export default function RootLayout({
   children,
 }: {
@@ -5,8 +7,8 @@ export default function RootLayout({
 }) {
   return (
     <>
-    <h1>Blog</h1>
-    <hr/>
+ <SideNav/>
+   
      {children}
     </>
   )
